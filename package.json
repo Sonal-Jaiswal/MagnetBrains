@@ -1,0 +1,30 @@
+{
+  "name": "task-management-system",
+  "version": "1.0.0",
+  "description": "A comprehensive task management system with user authentication and priority management",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "start": "cd server && npm start",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed"
+  },
+  "keywords": [
+    "task-management",
+    "react",
+    "nodejs",
+    "express",
+    "authentication"
+  ],
+  "author": "Task Management System",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "dependencies": {
+    "mongodb": "^6.20.0"
+  }
+}
