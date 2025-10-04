@@ -285,3 +285,4 @@ If you encounter any issues or have questions:
 
 **Built with ❤️ using React, Node.js, and MongoDB**
 # MagnetBrains
+# Updated README
